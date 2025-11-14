@@ -1,0 +1,15 @@
+
+{
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "site":"Paste_HostingSiteID_or_ProjectID_here",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+name: fiberchat_web #changing it will force you to change appname in import statement inside every .dart file.
+description: Web Chats & Calling app
+
+version: 1.0.6+7
+publish_to: none
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  cloud_functions: 4.1.0
+  webservice: 0.0.6
+  agora_rtc_engine: 5.3.1
+  flutter_toggle_tab: 1.2.0
+  record: 4.4.4
+  otp_pin_field: 1.1.2+2
+  pin_code_text_field: 1.8.0
+  share_plus: 6.3.0
+  video_thumbnail_imageview: 0.0.5
+  connectivity_plus: 3.0.2
+  image_downloader_web: 2.0.2
+  fast_cached_network_image: 1.1.1
+  package_info_plus: 3.0.2
+
+  audio_session: 0.1.10
+  rxdart: 0.27.5
+  file_saver: 0.1.1
+  url_launcher: 6.1.3
+  circular_countdown_timer: 0.2.1
+  camera: 0.10.0+4
+  oktoast: 3.1.5
+  holding_gesture: 1.1.0
+  flutter_emoji: 2.4.0
+  pip_view: 0.9.6-nullsafety
+  page_transition: 2.0.5
+  mime: 1.0.2
+  link_preview_generator: 1.2.0
+  font_awesome_flutter: 9.2.0
+  async: 2.10.0
+  emoji_picker_flutter: 1.5.2
+  group_button: 3.3.1
+  flutter_colorpicker: 0.6.1
+  devicelocale: 0.5.4
+  http_auth: 1.0.1
+  cloud_firestore: 4.0.4
+  fluttertoast: 8.0.9
+  dio: 4.0.6
+  firebase_storage: 11.0.3
+  file_picker: 5.2.2
+  path: 1.8.2
+  flutter_sound: 9.2.12
+  percent_indicator: 4.2.2
+  string_validator: 0.3.0
+  random_string: 2.3.1
+  flutter_native_timezone: 2.0.0
+  intl: 0.17.0
+  http: 0.13.5
+  provider: 6.0.3
+  firebase_auth: 4.1.0
+  html: 0.15.0
+  image_picker: 0.8.5+3
+  universal_platform: 1.0.0+1
+  flutter_linkify: 5.0.2
+  dotted_border: 2.0.0+1
+  diacritic: 0.1.3
+  image_cropper: 1.5.1
+  contacts_service: 0.6.3
+  scoped_model: 2.0.0-nullsafety.0
+  crypto: 3.0.2
+  encrypt: 5.0.1
+  localstorage: 4.0.0+1
+  photo_view: 0.12.0
+  overlay_support: 2.0.1
+  jiffy: 4.1.0
+  geolocator: 7.7.1
+  video_player: 2.4.5
+  firebase_core: 2.9.0
+  shared_preferences: 2.0.15
+  translator: 0.1.7
+  audioplayers: 0.20.1
+  flutter_secure_storage: 5.0.2
+  giphy_get: 3.1.0
+  wakelock: 0.6.2
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.4
+  collection: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.15
+  flutter_driver:
+    sdk: flutter
+  test: ^1.16.8
+
+  flutter_launcher_icons: ^0.9.2
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/appicon/appicon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/flags/
+    - lib/Services/localization/json_languages/
